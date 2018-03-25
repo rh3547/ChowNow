@@ -1,0 +1,50 @@
+<html>
+  <head>
+    {% include "snippets/snippet_headlinks.html" %}
+
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    {% include "snippets/snippet_nav.html" %}
+
+    <div class="screen-title"><h1 class="cn-font-cursive">ChowNow</h1></div>
+
+    <section id="home-search-section">
+      <div id="home-searchbox-area">
+        <h2 class="cn-font-cursive">What would you like to eat ?</h2>
+        <input type="text" class="cn-input-text">
+        <a href="#" class="cn-button-red">Search<i class="fa fa-search"></i></a>
+      </div>
+    </section>
+
+    <section id="home-locations-section">
+      <div id="home-locations-grid">
+        <a href="/location" class="home-location">
+          <img src="/static/images/midnightoil_logo.png" alt="Location Name"></img>
+          <h3 class="cn-font-roboto">Midnight Oil</h3>
+        </a>
+        <a href="/location" class="home-location">
+          <img src="/static/images/ctrlaltdeli_logo.png" alt="Location Name"></img>
+          <h3 class="cn-font-roboto">Ctrl Alt Deli</h3>
+        </a>
+        <a href="/location" class="home-location">
+          <img src="/static/images/salsaritas_logo.png" alt="Location Name"></img>
+          <h3 class="cn-font-roboto">GV Cantina</h3>
+        </a>
+        <a href="/location" class="home-location">
+          <img src="/static/images/crossroads_logo.png" alt="Location Name"></img>
+          <h3 class="cn-font-roboto">Crossroads</h3>
+        </a>
+        <a href="/location" class="home-location">
+          <img src="/static/images/nathans_logo.png" alt="Location Name"></img>
+          <h3 class="cn-font-roboto">Nathan's</h3>
+        </a>
+        <a href="/location" class="home-location">
+          <img src="/static/images/ritz_logo.png" alt="Location Name"></img>
+          <h3 class="cn-font-roboto">Ritz</h3>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
